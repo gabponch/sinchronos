@@ -1,0 +1,76 @@
+.form-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: none;
+    width: 450px;
+    height: auto;
+    margin-right: 0;
+    margin-left: auto;
+    box-sizing: border-box;
+  }
+
+.form-container-cadastro {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: none;
+    width: 450px;
+    height: auto;
+    margin-right: 0;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.form-container-cadastro button[type="submit"] {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 45%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #330A34;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+
+.white-input .MuiInputBase-input {
+    color: rgb(0, 0, 0);
+    border: 2px solid #330A34;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px;
+}
+
+.white-input .MuiInputBase-input:focus {
+    border-color: #330A34;
+    border-radius: 50px;
+    outline: none;
+}
+
+.white-input .MuiInput-underline:before {
+    border-bottom: 1px solid white;
+}
+
+.white-input .MuiInput-underline:after {
+    border-bottom: 2px solid white;
+}
+
+.mensagem-erro {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}

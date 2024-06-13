@@ -1,0 +1,120 @@
+.ponto-container {
+    background-color: #330a34;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ponto-header {
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+}
+
+.data-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ponto-title,
+.ponto-date {
+    color: white;
+}
+
+.ponto-progress-container {
+    width: 30%;
+    height: 20px;
+    background-color: #81039b;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.ponto-progress-bar {
+    height: 100%;
+    background-color: #00c281;
+}
+
+.ponto-progress-text {
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.ponto-worked-hours {
+    color: white;
+}
+
+.ponto-worked-hours span {
+    color: #00c281;
+}
+
+.ponto-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.ponto-button {
+    background-color: #ffffff;
+    color: #330a34;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .ponto-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ponto-progress-container {
+        width: 50%;
+    }
+
+    .ponto-progress-text {
+        top: -40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ponto-header {
+        top: 20px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .ponto-title,
+    .ponto-date {
+        font-size: 1.2em;
+    }
+
+    .ponto-progress-container {
+        width: 70%;
+    }
+
+    .ponto-progress-text {
+        top: -30px;
+    }
+
+    .ponto-button {
+        padding: 10px;
+        margin-top: 10px;
+    }
+}

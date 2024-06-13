@@ -1,0 +1,34 @@
+.menu {
+    position: fixed;
+    display: flex;
+    justify-items: flex-end;
+    top: 0;
+    right: 0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-inicio {
+    display: flex;
+    justify-items: flex-end;
+    top: 0;
+    right: 0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu:link{
+    background-color: #250725;
+}
+
+.menu-item {
+    background-color: #330a34;
+    cursor: pointer;
+    font-size: 16px;
+}

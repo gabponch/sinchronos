@@ -1,0 +1,56 @@
+
+ body {
+  background: #330A34;
+  font-family: Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+.links-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+.links-container a {
+  color: #04724D;
+  margin-left: 12px;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #04724D;
+}
+
+p {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  margin-top: 4px;
+  color: #424242;
+}
+
+.button-home {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+}
+
+.button-home .MuiButton-root {
+  margin: 10px 4px;
+}
+
+.button-home .MuiButton-root:first-child {
+  background-color: #00C281; 
+}
+
+.button-home .MuiButton-root:last-child {
+  background-color: #00C281;
+}
